@@ -24,5 +24,9 @@
   "homepage": "https://github.com/Rosepetal2022/contact_card#readme",
   "dependencies": {
     "concurrently": "^7.5.0"
-  }
+  },
+  "engines": {
+    "node": "17.x"
+  },
+  "heroku-prebuild": "npm instal --dev"
 }
